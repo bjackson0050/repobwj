@@ -12,3 +12,10 @@ H1 {
     color: blue;
  }
  
+ LI {
+    font-family: 'Serif';
+    font-style: italic;
+    font-size: 20px;
+    background: #ffffff;
+    color: black;
+ }
