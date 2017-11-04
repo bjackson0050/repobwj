@@ -1,0 +1,28 @@
+#div1 {
+
+height: 150px;
+
+width: 400px;
+
+margin: 20px;
+
+border: 1px solid red;
+
+padding: 10px;
+
+}
+
+Total Height is 410
+Total Width is 660
+Browser Calculated Height is 172
+Browser Calculated Height is 512
+
+I caem to this conclusion using the following formulas:
+
+Total Height=margin-top + border-top + padding-top + (height of the content)+ padding-bottom + border-bottom + margin-bottom
+
+Total Width=margin-left + border-left + padding-left + (width of the content)+ padding-right + border-right + margin-right
+
+Browser Calculated Height=border-left + padding-left + (width of the content)+ padding-right + border-right
+
+Browser calculated height=border-top + padding-top + (height of the content)+ padding-bottom + border-bottom
