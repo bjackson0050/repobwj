@@ -10,3 +10,11 @@ function clearErrors() {
         }
     }    
 }
+ction resetForm() {
+    clearErrors();
+    document.forms["numberFun"]["num1"].value = "";
+    document.forms["numberFun"]["num2"].value = "";
+    document.getElementById("results").style.display = "none";
+    document.getElementById("submitButton").innerText = "Submit";
+    document.forms["numberFun"]["num1"].focus();
+}
