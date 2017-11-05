@@ -17,7 +17,6 @@ function countingCharacters2(stringToCount, characterToFind){
     console.log("Character to find: " + characterToFind);
     console.log("Number of times the character appears: " + 
                   characterCount);
-}
 function countingCharacters3(str, search){    
     var count = 0;
     var numChars = search.length;
@@ -28,6 +27,9 @@ function countingCharacters3(str, search){
         if (current == search){            
             count++;
         }
+    }
+    return count;
+}
     }
   
   console.log("String to search in: " + str);
